@@ -34,8 +34,7 @@ This project is useful as an introduction to modern encryption techniques in Jav
 2. **Compile and Run the Project: Ensure you have JDK 8 or higher installed on your system.**
     javac AES.java
     java AES
-
-3.** Example Code: The following code snippet shows how to use the AES class to encrypt and decrypt a message:**
+3. **Example Code: The following code snippet shows how to use the AES class to encrypt and decrypt a message:**
    ```bash
    AES aes = new AES();
    aes.init(); // Initialize the AES key
