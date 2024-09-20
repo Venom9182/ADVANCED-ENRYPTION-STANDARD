@@ -44,5 +44,7 @@ This project is useful as an introduction to modern encryption techniques in Jav
    System.out.println("Encrypted Message: " + encryptedMessage);
    System.out.println("Decrypted Message: " + decryptedMessage);
 
+4. **Output: When you run the program, you should see an encrypted message (in Base64) and the decrypted message, which matches the original input.**
+
 
 
