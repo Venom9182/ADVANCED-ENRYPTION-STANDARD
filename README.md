@@ -36,16 +36,14 @@ This project is useful as an introduction to modern encryption techniques in Jav
     java AES
 
 3.** Example Code: The following code snippet shows how to use the AES class to encrypt and decrypt a message:**
-AES aes = new AES();
-aes.init(); // Initialize the AES key
-String encryptedMessage = aes.encrypt("Hello, World!"); // Encrypt the message
-String decryptedMessage = aes.decrypt(encryptedMessage); // Decrypt the message
-
-System.out.println("Encrypted Message: " + encryptedMessage);
-System.out.println("Decrypted Message: " + decryptedMessage);
-
-**4. Output: When you run the program, you should see an encrypted message (in Base64) and the decrypted message, which matches the original input.
-**
+   ```bash
+   AES aes = new AES();
+   aes.init(); // Initialize the AES key
+   String encryptedMessage = aes.encrypt("Hello, World!"); // Encrypt the message
+   String decryptedMessage = aes.decrypt(encryptedMessage); // Decrypt the message
+   
+   System.out.println("Encrypted Message: " + encryptedMessage);
+   System.out.println("Decrypted Message: " + decryptedMessage);
 
 
 
